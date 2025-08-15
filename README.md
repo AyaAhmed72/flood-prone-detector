@@ -12,7 +12,9 @@ Extracts and processes statistical terrain features for prediction.
 
 Displays results with confidence scores.
 
+
 Project Workflow
+
 Model Training & Preprocessing (Google Colab)
 
 Load DEM datasets.
@@ -23,6 +25,7 @@ Train a Random Forest Classifier.
 
 Save the trained model as random_forest_model.pkl.
 
+
 Run Web Interface (Visual Studio / Local Machine)
 
 Install dependencies (shown below).
@@ -30,6 +33,7 @@ Install dependencies (shown below).
 Run the Streamlit app:
 
  streamlit run c:\Users\AYA\Downloads\nu\NU.py → this will open the Flood Prone Area Detector in the browser.
+ 
 
 Prediction
 
@@ -42,6 +46,7 @@ Results will display:
 Flood Prone or Not Flood Prone
 
 Confidence Score in percentage.
+
 
 Installation
 
@@ -59,6 +64,7 @@ pip install -r requirements.txt
 
 pip install whitebox
 
+
 Usage
 
 Place the trained random_forest_model.pkl in the project folder.
@@ -67,6 +73,7 @@ Run:
  streamlit run path_to_your_script/NU.py
  
 Upload a .tif DEM file and view the prediction results.
+
 
 📂 Project Structure
 
@@ -80,11 +87,13 @@ flood-prone-detector/
 
 │── README.md
 
+
 Example Output
 
 Flood Prone Area: 🌊 with high confidence.
 
 Not Flood Prone Area: 🏞️ with confidence percentage.
+
 
 You can have access to the data by sending an email to: aya72@aucegypt.edu
 
