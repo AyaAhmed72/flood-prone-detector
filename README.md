@@ -1,4 +1,4 @@
-                                                     Flood Prone Area Detector
+                                                 Flood Prone Area Detector
 This project predicts whether a given location is flood-prone or not using Digital Elevation Model (DEM) .tif files in which It uses WhiteboxTools for terrain analysis, a Random Forest model, and the web interface is built with Streamlit.
 
 Features
@@ -48,7 +48,9 @@ flood-prone-detector/
 │── README.md
 
 Example Output
+
 Flood Prone Area: 🌊 with high confidence.
+
 Not Flood Prone Area: 🏞️ with confidence percentage.
 
 You can have access to the data by sending an email to: aya72@aucegypt.edu
