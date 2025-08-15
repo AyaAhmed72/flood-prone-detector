@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+rasterio
+whitebox
+joblib
